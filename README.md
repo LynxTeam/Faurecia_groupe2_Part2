@@ -1,20 +1,17 @@
-Les commandes 
+# Les commandes 
 
-# Je build mon image Dolibarr
+Je build mon image Dolibarr
+# docker build -t dolibarr .
 
-docker build -t dolibarr .
+Je run mon docker Dolibarr
+# docker run -it -d --name doli -p80:80 dolibarr:latest 
 
-# Je run mon docker Dolibarr
+Je tag mon build pour le push dans le registry docker hub
+# docker build -t devopsup/dolibarr:faurecia .
 
-docker run -it -d --name doli -p80:80 dolibarr:latest 
+la connexion au registry
+# docker login --username=devopsup
 
-# Je tag mon build pour le push dans le registry docker hub
-
- docker build -t devopsup/dolibarr:faurecia .
-
-# la connexion au registry
-docker login --username=devopsup
-
-# le push dans registry
-docker push devopsup/dolibarr:faurecia
+le push dans registry
+# docker push devopsup/dolibarr:faurecia
 
