@@ -1,4 +1,4 @@
-# Dolibarr 
+# Dolibarr + MariaDB
 
 - Je build mon image Dolibarr :
 docker build -t dolibarr .
