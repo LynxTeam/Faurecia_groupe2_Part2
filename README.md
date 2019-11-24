@@ -1,4 +1,4 @@
-# Les commandes 
+# Dolibarr 
 
 Je build mon image Dolibarr
 # docker build -t dolibarr .
