@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM ubuntu:latest
 # COPY dolibarr-10.0.3.tgz .
 
 ADD https://www.dolibarr.fr/files/stable/standard/dolibarr-10.0.3.tgz ./dolibarr-10.0.3.tgz	
