@@ -1,12 +1,12 @@
 # Dolibarr + MariaDB
 
-- Je build mon image Dolibarr :
+- Build de l'image Dolibarr :
 docker build -t dolibarr .
 
-- Je run mon docker Dolibarr :
+- Run de l'image docker Dolibarr :
 docker run -it -d --name doli -p80:80 dolibarr:latest 
 
-- Je tag mon build pour le push dans le registry docker hub :
+- Le tag avant le push dans le registry docker hub :
 docker build -t devopsup/dolibarr:faurecia .
 
 - la connexion au registry :
